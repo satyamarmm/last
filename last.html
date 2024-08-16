@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Revision section</title>
+</head>
+<body> <h1> <u><i>Workshop on html </i> </u> </h1>
+    <h3>1.What is the difference b/w div and span?</h3>
+    <p>Span and div are both generic HTML elements that group together related parts of a web page. However, they serve different functions. A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling.</p>
+    <h3>2.What are the semantic elements in html?</h3>
+    <p> semantic element clearly describes its meaning to both the browser and the developer. <br>
+        Examples of non-semantic elements: <q> div and span </q> - Tells nothing about its content. <br>
+        Examples of semantic elements: <q> form, table, and article</q> - Clearly defines its content.</p>
+    <h3>3.What is the d/f b/w href attr and src attr?</h3>
+    <p> The href attribute specifies the location (URL) of a resource, that an anchor element points to, or the location of a linked resource, like a stylesheet.
+        <br>While the src attribute is used to embed a resource - usually URLs - into a document, think embedded images <q>(<img>) and (script) </q>  <br>
+        Examples:- <br> <img src="https://imageio.forbes.com/specials-images/imageserve/64f8e481ed69b0d89df9e2c7/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds" alt="tw" width="500" height="350"> <br>
+                    <a href="https://macfor.com.br/wp-content/uploads/2023/07/fazer-a-diferenca-21.png.webp" target="_blank">Twitter</a>
+    </p>
+    <h3>4.What is d/f  b/w xml and html?</h3> 
+    <p>Both XML and HTML are used to create webpages and web applications. However, the two are different in many ways. In this article, we shall discuss these points of difference between XML and HTML.
+        <br>-XML stands for eXtensible Markup Language and is used to transport and save data. The focus here is not on displaying or the appearance of the data.
+        <br>-On the other hand, HTML stands for Hypertext Markup Language. This computer language helps to make the data more interactive with multiple formatting features. </p>
+    <h3>5.What are list tags and how many are they?</h3>
+    <p> HTML lists allow web developers to group a set of related items in lists. <br>
+        The [li] HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list [ol], an unordered list [ul]. In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter. <br>
+            * <u>Ordered list </u>:-
+            <ol>
+                <li type="1 ">first item</li>
+                <li type="A">second item</li>
+                <li>third item</li>
+                <li type="a">fourth item</li>
+                <li type="i"> fifth itrm</li>
+              </ol> <br>
+              * <u>Un Ordered list </u>:-
+              <ul>
+                <li type="circle">first item</li>
+                <li>second item</li>
+                <li type="square">third item</li>
+                <li>fourth item</li>
+                <li>fifth item</li>
+                <li type="none">sixth item</li>
+              </ul>
+
+
+    </p>
+    <h3>6.Create a iframe where a single i frame can opens multiple links in it?</h3>
+    **Click on the button to open the iframe link <br>
+    <p>
+        
+        <button onclick="changeSrc('https://www.wikipedia.org')" style="background-color: skyblue;">Open Wikipedia</button>
+        <button onclick="changeSrc('https://www.openai.com')"    style="background-color: skyblue;">Open OpenAI</button>
+    <br>
+        <iframe id="myFrame" src="https://www.example.com" width="1300" height="600"></iframe>
+        <script>
+            function changeSrc(url) {
+                document.getElementById('myFrame').src = url;
+            }
+        </script>
+        <center>
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/GDRyigWvUFg?si=q52saCszICciMfEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>YouTube</iframe>"></a> </center>
+    </p>   
+    <h3>7.Create a register form using name,emial,age,privacy policies and submit and do validations?</h3>
+   <div>
+        
+        <form action="./action1.html">
+            <pre> 
+            <h3>Register Form</h3>
+            <label for="ss">Enter your Name:</label>
+            <input type="text" id="ss" placeholder="name"> <br>
+            <label for="se">Enter your Name:</label> 
+            <input type="email" id="se" placeholder="email"> <br>
+            <label for="sw">Enter your age</label>
+            <input type="number" id="sw" min="18" max="80" placeholder="age"> <br>
+            <label for="pp">Private Policy:</label> <br>
+            <input type="checkbox" id="pp">
+            <label for="Privacy"> I agree to the Privacy Policy</label> <br> <br>
+            <button style="background-color: skyblue; border: 0;">submit</button>
+            
+        </pre>
+        </form></div>
+    </p>
+    <h1> <u><i>Workshop on git </i> </u> </h1>
+    <h3>1.What is the command for connecting local repo an dgithub repo?</h3>
+    <p>git-int -->Git add[filename]/ Git add .--> Git commit -m "this is an comment" -->Create a new github repo,copy the https code of that repo--> git remote add origin connect the local repo and guituhb repo</p>
+    <h3>2.what is the git command to change the directory  in your local folder?</h3>
+    <p>cd path/to/your/new/directory</p>
+    <h3>3.What is the git command to check the commits on the project?</h3> 
+    <p>"gitlog --online" is the command to view all the commits on the project.</p>
+    <h3>4.Git command for pushing all the code to amar branch?</h3>
+    <p>got checkbox amar -->git push origin amar</p>
+    <h3>5.Difference b/w the push and pill commands in git?</h3>
+    <p>"<u>Git Pull"</u> is used to update a local repository with the changes made to a remote repository. In other words, it allows you to download the latest changes made by other developers in the team and merge them with your local copy. The 'Git Pull' fetches the changes from the remote repository and merges them with your local branch.
+    <br>--An example of how to use 'Git Pull' is shown below: <br>
+        <span style="background-color: bisque;"> $ git pull origin master</span> <br>
+        <u>"Git Push"</u> is used to upload the changes made to your local repository into a remote repository. In other words, it allows you to share changes made in your local repository with other developers by uploading the changes to a central repository. The 'Git Push' command sends your changes to the remote repository.
+        <br>--An example of how to use 'Git Push' is shown below: <br>
+        <span style="background-color: bisque;">$ git push origin master</span>
+        </p>
+    <h3>6.command to check the no of branches and  command to switch the branch?</h3>
+    <p>--To see local branch names, open your terminal and run<u> git branch: </u><br>
+        --To see all remote branch names, run <u>git branch -r: </u><br>
+        --To see all local and remote branches, run <u>git branch -a:</u> <br>
+        --You can see detailed information such as the local or remote branches in use, commit ids, and commit messages by running <u></u>git branch -vv </u>or <u> git branch -vva: </u><br>
+    </p>
+    <h3>7.What are the stages of our project to reach to github repo?</h3>
+    <p>The Three States:- <br>
+        -Pay attention now — here is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: modified, staged, and committed: <br>
+       <ul>
+        <li><b>Working Directory:</b> IN this, we initiatethe new repo and then add files.</li>
+        </li>
+        <li> <b>Staging Area</b>In this, we commit the files and create the branches or checkout the branches and check the status.</li>
+        <li><b>Local Repo</b>In this, we push our project from our local repo to github repo.</li>
+        <li><b>Github Repo</b> In this, once we push the project from our local repo the files will be added to the github repo. From there we can deploy the code or project.</li>
+       </ul> 
+    </p>
+
+       <h3>8.The commands which we use in staging area?</h3>
+       <p style="background-color: lightgreen;">Git add file (or) Git add . ---> git commit -m "comment"</p>
+</body>
+</html>
